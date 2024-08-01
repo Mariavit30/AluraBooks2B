@@ -1,31 +1,9 @@
 :root{
-    --branco-principal:#FFFFFF;
-    --cinza-secundario:#C0C0C0;
-    --botao-azul:#167BF7;
-    --cor-de-fundo:#00030C;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
+    (---cor-de-fund #EBECEE;)
+}  
 body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    background-color: var(---cor-de-fundo);
 }
-.principal{
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.container{
-    height: 100vh;
-    display: gride; 
-    grid-template-columns: 50% 50%}
-
-    .container-botao{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
+<h1{
+    background-color: ;
 }
