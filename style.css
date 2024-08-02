@@ -1,9 +1,10 @@
 :root{
-    (---cor-de-fund #EBECEE;)
-}  
-body{
-    background-color: var(---cor-de-fundo);
+    --cor-de-fundo: #EBECEE;
 }
-<h1{
-    background-color: ;
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+h1{
+    background-color: white;
 }
